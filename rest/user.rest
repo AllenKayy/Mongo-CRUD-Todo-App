@@ -1,0 +1,21 @@
+@url = "http://localhost:3000/"
+
+GET http://localhost:3000/todo HTTP/1.1
+
+###
+POST http://localhost:3000/todo HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Setting up of mongoDB connection",
+    "description": "Setting up of mongo DB connection in a Node.Js server as well as performance of CRUD operations"
+}
+
+###
+PUT http://localhost:3000/todo HTTP/1.1
+Content-Type: application/json
+
+###
+DELETE http://localhost:3000/todo HTTP/1.1
+Content-Type: application/json
+
